@@ -25,12 +25,13 @@ This application provides a hands-on learning experience by bridging the gap bet
 
 The platform currently supports the visualization of the following data structures and their primary operations:
 
--   **Set (Red-Black Tree):** `insert`, `erase`
 -   **List / Deque:** `push_front`, `pop_front`, `push_back`, `pop_back`
 -   **Stack:** `push`, `pop`
 -   **Queue:** `push`, `pop`
 -   **Priority Queue:** `push`, `pop`
-
+-   **Set (Red-Black Tree):** `insert`, `erase`
+-   **Map (Red-Black Tree):** `insert`, `erase`
+-   
 ## Tech Stack
 
 -   **Frontend:** [React.js](https://reactjs.org/) (v16, using class components)
