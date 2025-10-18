@@ -2,7 +2,7 @@
   "name": "ds_front",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Rishabh028.github.io/Data-Structure--Visualization",
+  "homepage": "https://data-structure-visualization-alpha.vercel.app/",
   "dependencies": {
     "js_dsal": "^1.0.4",
     "react": "^16.5.2",
