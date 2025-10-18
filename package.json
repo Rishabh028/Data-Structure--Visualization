@@ -2,7 +2,7 @@
   "name": "ds_front",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hongjisung.github.io/JS_DataStructure_Visualization",
+  "homepage": "https://Rishabh028.github.io/Data-Structure--Visualization",
   "dependencies": {
     "js_dsal": "^1.0.4",
     "react": "^16.5.2",
@@ -13,7 +13,9 @@
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -25,6 +27,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.2.0"
   }
 }
