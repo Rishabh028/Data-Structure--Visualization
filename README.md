@@ -31,7 +31,7 @@ The platform currently supports the visualization of the following data structur
 -   **Priority Queue:** `push`, `pop`
 -   **Set (Red-Black Tree):** `insert`, `erase`
 -   **Map (Red-Black Tree):** `insert`, `erase`
--   
+  
 ## Tech Stack
 
 -   **Frontend:** [React.js](https://reactjs.org/) (v16, using class components)
