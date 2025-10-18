@@ -1,0 +1,34 @@
+@keyframes pqPushCameOut{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.pqPushErase {
+  opacity: 0;
+  animation-name: pqPushCameOut;
+  animation-fill-mode: forwards;
+}
+
+.appear {
+  opacity: 0;
+  animation-name: pqPushCameOut;
+  animation-fill-mode: forwards;
+}
+
+.appearAfter1s {
+  opacity: 0;
+  animation-name: pqPushCameOut;
+  animation-delay: 1s;  
+  animation-fill-mode: forwards;
+}
+
+.appearAfter3s {
+  opacity: 0;
+  animation-name: pqPushCameOut;
+  animation-delay: 3s;  
+  animation-fill-mode: forwards;
+}

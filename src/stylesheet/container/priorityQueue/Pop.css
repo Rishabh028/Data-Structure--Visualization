@@ -1,0 +1,66 @@
+@keyframes pqPopDisappear{
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.disappearAfter3s {
+  opacity: 1;
+  animation-name: pqPopDisappear;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+.disappearAfter1s {
+  opacity: 1;
+  animation-name: pqPopDisappear;
+  animation-delay: 1s;  
+  animation-fill-mode: forwards;
+}
+
+.disappear {
+  opacity: 1;
+  animation-name: pqPopDisappear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes PQPopSizeErase {
+  0% {
+    opacity: 1;
+  }
+  69% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0; 
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.pqPopSizeErase {
+  animation-name: PQPopSizeErase;
+  animation-fill-mode: forwards;
+}
+
+@keyframes PQPopSizeEmerge {
+  70% {
+    opacity: 0;
+  }
+  71% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1; 
+  }
+}
+
+.pqPopSizeEmerge {
+  opacity: 0;
+  animation-name: PQPopSizeEmerge;
+  animation-fill-mode: forwards;
+}

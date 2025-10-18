@@ -1,0 +1,100 @@
+section.input-section {
+  width: 40%;
+  height: 90%;
+  float: right;
+}
+
+div.text-input1 {
+  width: 23%;
+  height: 4.2%;
+  margin:0;
+  float: left;
+  margin-top: 1.5%;
+  position: relative;
+  text-align: middle;
+}
+
+.precaution {
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  float: left;
+  margin: 0;
+  margin-top: 1.5%;
+  position: relative;
+  border: none;
+  cursor: pointer;
+  background-size: cover;
+  outline:0px !important;
+}
+
+.cautionImg {
+  width: 22px;
+  height: 22px;
+  display: block;
+  float: left;
+}
+
+
+.coverDom {
+  width: 1000%;
+  height: 1000%;
+  top:0;
+  left:0;
+  right:0;
+  bottom: 0;
+  position: fixed;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1002;
+}
+
+.cautionContent {
+  width: 400px;
+  height: 300px;
+  top: 25%;
+  left: 25%;
+  right: 25%;
+  bottom: 25%;
+  position: fixed;
+  background-color: white;
+  z-index: 1003;
+  border-color: black;
+  border-width: 2px;
+  border-style: double;
+}
+
+button.input-button {
+  height:4.2%;
+  margin-top: 1%;
+  float: right;
+  text-align: middle;
+  border: none;
+  background-color: Black;
+  color: white;
+  cursor: pointer;
+}
+
+button.input-button-close {
+  height:10%;
+  margin-top: 1%;
+  float: right;
+  text-align: middle;
+  border: none;
+  background-color: Black;
+  color: white;
+  cursor: pointer;
+}
+
+p.linestyle {
+  margin:5px;
+}
+
+div.text-input2 {
+  width: 40%;
+  height: 4.2%;
+  margin:0;
+  margin-top: 3%;
+  float: left;
+  position: relative;
+  text-align: middle;
+}

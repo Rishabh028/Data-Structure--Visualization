@@ -1,0 +1,30 @@
+@keyframes StackPopMove {
+  from {
+    transform: translateX(0)
+  }
+  to {
+    transform: translateX(-65px)
+  }
+}
+
+@keyframes StackPopDisappear {
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.stackPopMove {
+  animation-name: StackPopMove;
+  animation-fill-mode: forwards;
+}
+
+.stackPopDisappear {
+  opacity: 1;
+  animation-name: StackPopDisappear;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+}
+

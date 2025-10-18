@@ -1,0 +1,15 @@
+@keyframes ListPopFrontMove {
+  from {
+    transform: translateX(0)
+  }
+  to {
+    transform: translateX(-85px)
+  }
+}
+
+
+.listPopFrontOrigin {
+  animation-name: ListPopFrontMove;
+  animation-fill-mode: forwards;
+}
+
