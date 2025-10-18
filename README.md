@@ -5,7 +5,7 @@
 
 An interactive web-based platform for visualizing common data structures and their algorithms. This tool is designed to help students, developers, and enthusiasts understand how data structures work by seeing their operations animated step-by-step.
 
-### [Live Demo](https://rishabh028.github.io/Data-Structure--Visualization/)
+### 📌 [Live Demo](https://data-structure-visualization-2ugvtn9sy-rishabh028s-projects.vercel.app/)
 
 
 
